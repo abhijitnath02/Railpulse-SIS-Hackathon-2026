@@ -1,0 +1,25 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.35
+pydantic==2.9.2
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+xgboost==2.1.1
+joblib==1.4.2
+faker==29.0.0
+shap==0.46.0
+
+# --- Item 9: Auth / RBAC ---
+PyJWT==2.9.0
+python-multipart==0.0.12   # required by FastAPI's OAuth2PasswordRequestForm
+
+# --- Item 5: LSTM comparison model ---
+torch==2.4.1
+
+# --- Item 11: Load testing ---
+httpx==0.27.2
+
+# --- Item 8: SMS alerts (optional — only needed for the real Twilio path;
+# the stub path in backend/sms_provider.py works without it) ---
+# twilio==9.3.2
